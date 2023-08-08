@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #bebebe;
+    color: #0f141e;
+}
+a {
+     color: #0f141e;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: #1eff00;
+}
+.colors-1{
+    color:#f14330;
+}
+
+.colors-2{
+    color:#0b0546;
+}
+.colors-3{
+    color:#ff000093;
+}
+.colors-4{
+    color:#1eff00;
+}
+.colors-5{
+    color:#0000006c;
+}
+.colors-6{
+    color:#817900b0;
+}
+.card-1{
+    border: 10px solid rebeccapurple;
+    border-radius: 10px;
+    background-color: rgb(161, 0, 0);
+    padding: 20px;
+}
+.card-2{
+    border: 10px solid greenyellow;
+    border-radius: 10px;
+    background-color: rgb(48, 26, 245);
+    padding: 20px;
+}
+.img{
+
+    margin: auto;
+    max-width: 400px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+.dtr{
+    background: #111;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.dtr:hover{
+    opacity: 0.8;
+}
+.list{
+    padding: 0%;
+    margin: 0%;
+    list-style: nonez;
+}
+.list li{
+    margin-bottom: 8px;
+    border-bottom: 3px solid grey;
+}
+.tadle{
+    max-width: 500px ;
+    width: 100%;
+}
+.tadle td{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.tadle td:hover{
+    background: #eeefff;
+}
